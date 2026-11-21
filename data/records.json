@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "event_ref": "ev-01",
+      "content_ref": "ct-01",
+      "channel": "直播",
+      "observed_at": "2026-03-01T12:00:00Z",
+      "person_ref": "x-01",
+      "activity": "观看",
+      "confidence": "platform"
+    },
+    {
+      "event_ref": "ev-01",
+      "content_ref": "ct-01",
+      "channel": "报名台账",
+      "observed_at": "2026-03-01",
+      "person_ref": "x-01",
+      "activity": "比赛报名",
+      "confidence": "recorded"
+    },
+    {
+      "event_ref": "ev-02",
+      "content_ref": "ct-02",
+      "channel": "线下活动",
+      "observed_at": "2026-03-02T09:00:00+08:00",
+      "person_ref": "x-02",
+      "activity": "出席",
+      "confidence": "recorded"
+    },
+    {
+      "event_ref": "ev-03",
+      "content_ref": "ct-03",
+      "channel": "回访",
+      "observed_at": null,
+      "person_ref": "x-03",
+      "activity": "志愿者",
+      "confidence": "reported"
+    }
+  ]
+}

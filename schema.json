@@ -1,0 +1,21 @@
+{
+  "collection": "records.json",
+  "record_fields": [
+    "event_ref",
+    "content_ref",
+    "channel",
+    "observed_at",
+    "person_ref",
+    "activity",
+    "confidence"
+  ],
+  "example_record": {
+    "event_ref": "ev-01",
+    "content_ref": "ct-01",
+    "channel": "直播",
+    "observed_at": "2026-03-01T12:00:00Z",
+    "person_ref": "x-01",
+    "activity": "观看",
+    "confidence": "platform"
+  }
+}
